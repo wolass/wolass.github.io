@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Academic</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on Academic</description>
+    <title>Categories on Wojciech Francuzik</title>
+    <link>https://wolass.github.io/categories/</link>
+    <description>Recent content in Categories on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <atom:link href="/categories/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Scientific Communication</title>
+      <link>https://wolass.github.io/categories/scientific-communication/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://wolass.github.io/categories/scientific-communication/</guid>
       <description></description>
     </item>
     

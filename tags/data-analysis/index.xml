@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Wojciech Francuzik</title>
+    <link>https://wolass.github.io/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Wojciech Francuzik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
+    <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/data-analysis/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anaphylaxis</title>
+      <link>https://wolass.github.io/project/anaphylaxis/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/project/anaphylaxis/</guid>
+      <description>
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;The European Anaphylaxis Registry is a uniqe database, that gathers anaphylaxis cases along with high quality clinical data. It is maintained by the &lt;a href=&#34;https://www.anaphylaxie.net/&#34; target=&#34;_blank&#34;&gt;NORA e.V.&lt;/a&gt;.
+I&amp;rsquo;m lucky to be working on this challenging dataset as a data scientist.&lt;/p&gt;
+
+&lt;h1 id=&#34;my-job-in-the-project&#34;&gt;My job in the project&lt;/h1&gt;
+
+&lt;p&gt;My work on the European Anaphylaxis Registry started in 2015. I first looked into the sex differences in anaphylaxis severity. Next, I was investigating the influence of aggrevating factors on the severity of anaphylaxis.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-i-have-learned&#34;&gt;What I have learned&lt;/h1&gt;
+
+&lt;p&gt;This project was a demanding and complex task which required me to incorporate new tools int daily practice. I had to reorganise my analytic workflow to use GIT daily, registering all changes made to the files. Also collaboration with tem members who preferred to work with Word files posed a challenge. Nevertheless, I managed to use R to create a reproducible paper written entirly in R and with the use of &amp;ldquo;knitr&amp;rdquo; package convert it into final word documents.&lt;/p&gt;
+
+&lt;p&gt;I have learned how to work with bibliographies in R, how to divide analysis and reports into separate files which than can be used to produce the final manuscript. During this project I had to start writing my own package with helper functions around the logistic regression outputs and I have seen the problems of scalability, that were resolvesd by over 50 custom R scripts, to manage the big data analysis.&lt;/p&gt;
+
+&lt;h2 id=&#34;skills-learned&#34;&gt;Skills learned:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Logistic regression analysis&lt;/li&gt;
+&lt;li&gt;Comparing logistic regression models&lt;/li&gt;
+&lt;li&gt;Odds ratios and relative risks differences&lt;/li&gt;
+&lt;li&gt;Code externalization&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ggplot&lt;/em&gt; perfection to produce publication ready figures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;meta-science-conclusions&#34;&gt;Meta-science conclusions:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It is possible to collaborate on a manuscript with multiple authors on a paper written directly in &lt;em&gt;knitr&lt;/em&gt;, but it requires that all changes be introduced to the source files each time what can be a daunting task. 2. Using GIT is essential not to get lost in along the way&lt;/li&gt;
+&lt;li&gt;Having a strict stucture for the analysis for future projects&lt;/li&gt;
+&lt;li&gt;Analysis and manuscript write-ups need a strictly defined file structure&lt;/li&gt;
+&lt;li&gt;Mimimizing code snippets in the manuscript file increases the readability of the file.&lt;/li&gt;
+&lt;li&gt;All functions should be in separate files&lt;/li&gt;
+&lt;li&gt;Wrapping a paper into a &lt;em&gt;R package&lt;/em&gt; might be a good idea for future projects.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Wojciech Francuzik</title>
+    <link>https://wolass.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Wojciech Francuzik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
+    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Init lab</title>
+      <link>https://wolass.github.io/post/init-lab/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/post/init-lab/</guid>
+      <description>
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;This is my initial post. Communication in science is changing not so rapidly as it should. Use of new tools and methods may drive change in the way we communicate experiment results.
+I have been using R and Rstudio extensively since last 4 years. It has proven exeptionally well suited for making science and my latest attempts at producing full manuscripts in RStudio were suprisingly successful. This lead me to investigating new forms of scientific communication.&lt;/p&gt;
+
+&lt;h1 id=&#34;aim&#34;&gt;Aim&lt;/h1&gt;
+
+&lt;p&gt;The purpose of this site is to a) order my knowledge and programming skills, b) make me practice clear communication with the readers, c) promote Open Science and d) serve as an Open Lab Notebook.&lt;/p&gt;
+
+&lt;h1 id=&#34;methods&#34;&gt;Methods&lt;/h1&gt;
+
+&lt;p&gt;I will be using the &amp;lsquo;blogdown&amp;rsquo; package by Yihui Xie to serve this site. My ideas and data will be shared openly using the CC-BY 4.0 License. There is no funding for this site, and the data I share here are my own. To host the page I&amp;rsquo;ll use github and AWS for the domain.&lt;/p&gt;
+
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;So far using blogdown was a blast and it works great. I have a lot of topics to cover in the following posts. This will be documenting my experience how to set up an academig website using blogdown and github.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;The complete instructions to get you started right away are written &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;here by the author of the blogdown package&lt;/a&gt;. If you want th get right to business &lt;a href=&#34;https://bookdown.org/yihui/blogdown/workflow.html&#34; target=&#34;_blank&#34;&gt;try this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In short: setting up the blogdown and hugo and previewing locally takes no more than 5 minutes!&lt;/p&gt;
+
+&lt;p&gt;The time consumig part is getting all the personal details and the list of publications into the file structure.&lt;/p&gt;
+
+&lt;p&gt;I really love that everything here is written in markdown!&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-details&#34;&gt;Academic details&lt;/h2&gt;
+
+&lt;p&gt;I chose the academic template because it ideally answers my needs. You need to add some links to the most used account in the configuration file: Research gate, Impactstory, twitter links and so on. It takes a couple of hours. To represent your current CV.&lt;/p&gt;
+
+&lt;h2 id=&#34;publishing&#34;&gt;Publishing&lt;/h2&gt;
+
+&lt;p&gt;I already had a domain and used the github hosting service. So for me this did not make a difference, but setting these up is also not that hard. Details are in the Blogdown&amp;rsquo;s manual.&lt;/p&gt;
+
+&lt;h1 id=&#34;discussion&#34;&gt;Discussion&lt;/h1&gt;
+
+&lt;p&gt;Could this type of content be the future of scientific communication? Or are we bound to paper journals and good ol&amp;rsquo; Impact Factor?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
