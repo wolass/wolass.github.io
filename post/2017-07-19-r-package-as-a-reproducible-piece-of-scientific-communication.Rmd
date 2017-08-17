@@ -1,0 +1,31 @@
+---
+title: R package as a reproducible piece of scientific communication
+author: Wojciech Francuzik
+date: '2017-07-19'
+slug: r-package-as-a-reproducible-piece-of-scientific-communication
+categories:
+  - scientific communication
+tags:
+  - blog
+  - R
+---
+
+Why do scientists still use journal articles as main form of sharing their research?
+The paper publication has been with the academics since ages and it surely does need an update.
+
+The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output. 
+
+We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this. 
+
+So to answer my own question - it all lies in incentives. Scientist publish in paper academic journals because they are rewarded with "Impact Factor points". These are then exchanged (being a form of evaluation how good a certain group of researchers is) for more funding for science, staff, consumables, rooms. Essentially all resources are divided between reaserch groups according to this extreamly biased benchmark. 
+
+Nevertheless, the problem of providing high quality proofs to scientific questions is not well addressed, by following these incentives because it just doesn't calculate to put extra effort for ensuring quality research. 
+
+But scientists aside from being calculated people are sometimes also ethical. One example of this is sharing scientific discoveries openly and not bothering with impact points. Prof. Ben Marvic is such a guy! Have a look at his repos on github. Especially [this one](https://github.com/benmarwick/researchcompendium) got my attention. Researchcompendium is a package - template for science projects that adds a lot of structure for reproducibility. 
+
+Maybe this form of scientific communication has the chance to be equal to journal publications?
+
+So I suggest to try the package! I will and my experience will be covered in next posts. 
+
+
+

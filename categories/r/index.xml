@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Academic</title>
+    <title>R on Wojciech Francuzik</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on Academic</description>
+    <description>Recent content in R on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
+    <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/r/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Evaluate optical density to get concentrations of your ELISA</title>
+      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <description>&lt;p&gt;Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.&lt;/p&gt;
+&lt;p&gt;I decided to change this and learn this and that about analysing ELISA results.&lt;/p&gt;
+&lt;p&gt;So the first thing that got me - OPTICAL DENSITY measurments were unaffected by the analysis type. So I had to use these raw values as my starting point. Extracting these was a matter of using Rpoppler package to extract pdf into txt and than using som gsub commands to get the exact values that I needed.&lt;/p&gt;
+&lt;p&gt;Secondly, the manual of my elisa recommended using the 4 parameter models and I had to look for a function which could facilitate this. &lt;code&gt;drc&lt;/code&gt; package has this covered.&lt;/p&gt;
+&lt;p&gt;I quickly wrote a function based on a post on research gate, and was able to get my results.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#&amp;#39; Calculate the concentration of a substrate from a known OPTICAL DENSITY
+#&amp;#39;
+#&amp;#39; This function will give a calculated concentration of a subsance in 96 well 
+#&amp;#39; plate given the optical density from a plate reader.
+#&amp;#39; 
+#&amp;#39; @param OD Optical density of the STANDARD DILUTION [numeric vector]
+#&amp;#39; @param conc KNOWN concentrations of the standard dilution [numeric vector]
+#&amp;#39; @param OD_sample Optical densities of samples [named vector]
+#&amp;#39; @return A data frame with OD, log fitted values and calculated concentrations
+#&amp;#39;  of the samples and a plot with a standard curve standard and blue samples
+#&amp;#39; @author Wojciech Francuzik
+#&amp;#39; @details This function is useful when working with old plate readers. It uses 
+#&amp;#39; the FOUR PARAMETER CURVE to fit the model to your standards. 
+#&amp;#39; @export elisa4ll
+
+elisa4ll &amp;lt;- function(OD,conc,OD_sample){
+    require(drc)
+logconc &amp;lt;-log10(conc)# log10 from conc
+stdcrvdata &amp;lt;- data.frame(OD,conc,logconc)
+fit&amp;lt;-drm(formula = OD ~ conc , data = stdcrvdata, fct = LL.4())
+samples &amp;lt;- data.frame(OD=OD_sample)# data from mesurments
+samples$loganswer&amp;lt;- fit$coefficients[4]*
+    (((-1* fit$coefficients[3]+samples$OD)/
+          (fit$coefficients[2]-samples$OD))^(1/ fit$coefficients[1]))
+samples$conc &amp;lt;- 10^samples$loganswer
+plot(fit)
+lines(samples$loganswer,samples$OD, type=&amp;quot;points&amp;quot;, col=&amp;quot;blue&amp;quot;) 
+return(samples)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is available in y &lt;a href=&#34;https://github.com/wolass/rlabbook&#34;&gt;rlabbook package&lt;/a&gt; (which is a slow WIP).&lt;/p&gt;
+&lt;p&gt;Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary?&lt;/p&gt;
+&lt;p&gt;Hope this helps someone!&lt;/p&gt;
 </description>
     </item>
     

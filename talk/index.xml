@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>The Microbiome in Skin Diseases: looking back to move forward</title>
-      <link>https://wolass.github.io/talk/indercos2/</link>
+      <link>/talk/indercos2/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/talk/indercos2/</guid>
+      <guid>/talk/indercos2/</guid>
       <description></description>
     </item>
     

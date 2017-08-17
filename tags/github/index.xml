@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/tags/github/</link>
+    <link>/tags/github/</link>
     <description>Recent content in Github on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Init lab</title>
-      <link>https://wolass.github.io/post/init-lab/</link>
+      <link>/post/init-lab/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/post/init-lab/</guid>
+      <guid>/post/init-lab/</guid>
       <description>
 
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;

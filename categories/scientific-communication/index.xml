@@ -2,20 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scientific Communication on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/categories/scientific-communication/</link>
+    <link>/categories/scientific-communication/</link>
     <description>Recent content in Scientific Communication on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
-    <lastBuildDate>Fri, 14 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/scientific-communication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>R package as a reproducible piece of scientific communication</title>
+      <link>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
+      <description>&lt;p&gt;Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.&lt;/p&gt;
+&lt;p&gt;The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.&lt;/p&gt;
+&lt;p&gt;We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.&lt;/p&gt;
+&lt;p&gt;So to answer my own question - it all lies in incentives. Scientist publish in paper academic journals because they are rewarded with “Impact Factor points”. These are then exchanged (being a form of evaluation how good a certain group of researchers is) for more funding for science, staff, consumables, rooms. Essentially all resources are divided between reaserch groups according to this extreamly biased benchmark.&lt;/p&gt;
+&lt;p&gt;Nevertheless, the problem of providing high quality proofs to scientific questions is not well addressed, by following these incentives because it just doesn’t calculate to put extra effort for ensuring quality research.&lt;/p&gt;
+&lt;p&gt;But scientists aside from being calculated people are sometimes also ethical. One example of this is sharing scientific discoveries openly and not bothering with impact points. Prof. Ben Marvic is such a guy! Have a look at his repos on github. Especially &lt;a href=&#34;https://github.com/benmarwick/researchcompendium&#34;&gt;this one&lt;/a&gt; got my attention. Researchcompendium is a package - template for science projects that adds a lot of structure for reproducibility.&lt;/p&gt;
+&lt;p&gt;Maybe this form of scientific communication has the chance to be equal to journal publications?&lt;/p&gt;
+&lt;p&gt;So I suggest to try the package! I will and my experience will be covered in next posts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Init lab</title>
-      <link>https://wolass.github.io/post/init-lab/</link>
+      <link>/post/init-lab/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/post/init-lab/</guid>
+      <guid>/post/init-lab/</guid>
       <description>
 
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;

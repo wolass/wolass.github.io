@@ -1,0 +1,62 @@
+---
+title: Evaluate optical density to get concentrations of your ELISA
+author: Wojciech Francuzik
+date: '2017-08-17'
+slug: evaluate-optical-density-to-get-concentrations-of-your-elisa
+categories:
+  - R
+  - lab
+tags:
+  - blog
+  - R
+  - function
+  - lab
+---
+
+Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood. 
+
+I decided to change this and learn this and that about analysing ELISA results. 
+
+So the first thing that got me - OPTICAL DENSITY measurments were unaffected by the analysis type. So I had to use these raw values as my starting point. Extracting these was a matter of using Rpoppler package to extract pdf into txt and than using som gsub commands to get the exact values that I needed.
+
+Secondly, the manual of my elisa recommended using the 4 parameter models and I had to look for a function which could facilitate this. `drc` package has this covered.
+
+I quickly wrote a function based on a post on research gate, and was able to get my results. 
+
+```
+#' Calculate the concentration of a substrate from a known OPTICAL DENSITY
+#'
+#' This function will give a calculated concentration of a subsance in 96 well 
+#' plate given the optical density from a plate reader.
+#' 
+#' @param OD Optical density of the STANDARD DILUTION [numeric vector]
+#' @param conc KNOWN concentrations of the standard dilution [numeric vector]
+#' @param OD_sample Optical densities of samples [named vector]
+#' @return A data frame with OD, log fitted values and calculated concentrations
+#'  of the samples and a plot with a standard curve standard and blue samples
+#' @author Wojciech Francuzik
+#' @details This function is useful when working with old plate readers. It uses 
+#' the FOUR PARAMETER CURVE to fit the model to your standards. 
+#' @export elisa4ll
+
+elisa4ll <- function(OD,conc,OD_sample){
+    require(drc)
+logconc <-log10(conc)# log10 from conc
+stdcrvdata <- data.frame(OD,conc,logconc)
+fit<-drm(formula = OD ~ conc , data = stdcrvdata, fct = LL.4())
+samples <- data.frame(OD=OD_sample)# data from mesurments
+samples$loganswer<- fit$coefficients[4]*
+    (((-1* fit$coefficients[3]+samples$OD)/
+          (fit$coefficients[2]-samples$OD))^(1/ fit$coefficients[1]))
+samples$conc <- 10^samples$loganswer
+plot(fit)
+lines(samples$loganswer,samples$OD, type="points", col="blue") 
+return(samples)
+}
+```
+
+It is available in y [rlabbook package](https://github.com/wolass/rlabbook) (which is a slow WIP). 
+
+Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary? 
+
+Hope this helps someone! 

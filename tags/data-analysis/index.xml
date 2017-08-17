@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Analysis on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/tags/data-analysis/</link>
+    <link>/tags/data-analysis/</link>
     <description>Recent content in Data Analysis on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Anaphylaxis</title>
-      <link>https://wolass.github.io/project/anaphylaxis/</link>
+      <link>/project/anaphylaxis/</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/project/anaphylaxis/</guid>
+      <guid>/project/anaphylaxis/</guid>
       <description>
 
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;

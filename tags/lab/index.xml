@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on Wojciech Francuzik</title>
+    <link>/tags/lab/</link>
+    <description>Recent content in Lab on Wojciech Francuzik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
+    <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/lab/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Evaluate optical density to get concentrations of your ELISA</title>
+      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <description>&lt;p&gt;Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.&lt;/p&gt;
+&lt;p&gt;I decided to change this and learn this and that about analysing ELISA results.&lt;/p&gt;
+&lt;p&gt;So the first thing that got me - OPTICAL DENSITY measurments were unaffected by the analysis type. So I had to use these raw values as my starting point. Extracting these was a matter of using Rpoppler package to extract pdf into txt and than using som gsub commands to get the exact values that I needed.&lt;/p&gt;
+&lt;p&gt;Secondly, the manual of my elisa recommended using the 4 parameter models and I had to look for a function which could facilitate this. &lt;code&gt;drc&lt;/code&gt; package has this covered.&lt;/p&gt;
+&lt;p&gt;I quickly wrote a function based on a post on research gate, and was able to get my results.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#&amp;#39; Calculate the concentration of a substrate from a known OPTICAL DENSITY
+#&amp;#39;
+#&amp;#39; This function will give a calculated concentration of a subsance in 96 well 
+#&amp;#39; plate given the optical density from a plate reader.
+#&amp;#39; 
+#&amp;#39; @param OD Optical density of the STANDARD DILUTION [numeric vector]
+#&amp;#39; @param conc KNOWN concentrations of the standard dilution [numeric vector]
+#&amp;#39; @param OD_sample Optical densities of samples [named vector]
+#&amp;#39; @return A data frame with OD, log fitted values and calculated concentrations
+#&amp;#39;  of the samples and a plot with a standard curve standard and blue samples
+#&amp;#39; @author Wojciech Francuzik
+#&amp;#39; @details This function is useful when working with old plate readers. It uses 
+#&amp;#39; the FOUR PARAMETER CURVE to fit the model to your standards. 
+#&amp;#39; @export elisa4ll
+
+elisa4ll &amp;lt;- function(OD,conc,OD_sample){
+    require(drc)
+logconc &amp;lt;-log10(conc)# log10 from conc
+stdcrvdata &amp;lt;- data.frame(OD,conc,logconc)
+fit&amp;lt;-drm(formula = OD ~ conc , data = stdcrvdata, fct = LL.4())
+samples &amp;lt;- data.frame(OD=OD_sample)# data from mesurments
+samples$loganswer&amp;lt;- fit$coefficients[4]*
+    (((-1* fit$coefficients[3]+samples$OD)/
+          (fit$coefficients[2]-samples$OD))^(1/ fit$coefficients[1]))
+samples$conc &amp;lt;- 10^samples$loganswer
+plot(fit)
+lines(samples$loganswer,samples$OD, type=&amp;quot;points&amp;quot;, col=&amp;quot;blue&amp;quot;) 
+return(samples)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is available in y &lt;a href=&#34;https://github.com/wolass/rlabbook&#34;&gt;rlabbook package&lt;/a&gt; (which is a slow WIP).&lt;/p&gt;
+&lt;p&gt;Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary?&lt;/p&gt;
+&lt;p&gt;Hope this helps someone!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
