@@ -1,0 +1,23 @@
++++
+  date = "2017-08-21T00:00:00"
+  title = "The Microbiome in Skin Diseases: looking back to move forward"
+  abstract = ""
+  abstract_short = ""
+  event = "2nd INDERCOS Conference"
+  event_url = "http://www.indercos.org/"
+  location = "Instanbul, Turkey"
+  
+  selected = false
+  math = true
+  
+  url_pdf = ""
+  url_slides = ""
+  url_video = ""
+  
+  # Optional featured image (relative to `static/img/` folder).
+  [header]
+  image = "headers/bubbles-wide.jpg"
+  caption = "My caption :smile:"
+  
+  +++
+    

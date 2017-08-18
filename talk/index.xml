@@ -19,5 +19,19 @@
       <description></description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/talk/kolberg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/kolberg/</guid>
+      <description>&lt;p&gt;+++ date = “2017-08-21T00:00:00” title = “The Microbiome in Skin Diseases: looking back to move forward” abstract = “” abstract_short = “” event = “2nd INDERCOS Conference” event_url = “&lt;a href=&#34;http://www.indercos.org/&#34; class=&#34;uri&#34;&gt;http://www.indercos.org/&lt;/a&gt;” location = “Instanbul, Turkey”&lt;/p&gt;
+&lt;p&gt;selected = false math = true&lt;/p&gt;
+&lt;p&gt;url_pdf = “” url_slides = “” url_video = “”&lt;/p&gt;
+&lt;p&gt;# Optional featured image (relative to &lt;code&gt;static/img/&lt;/code&gt; folder). [header] image = “headers/bubbles-wide.jpg” caption = “My caption :smile:”&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
