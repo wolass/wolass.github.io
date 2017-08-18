@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Wpływ lecznictwa uzdrowiskowego na mikrobiom skóry</title>
+      <link>/talk/kolberg/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/kolberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Evaluate optical density to get concentrations of your ELISA</title>
       <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
@@ -259,15 +268,6 @@ I have been using R and Rstudio extensively since last 4 years. It has proven ex
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/german-ana/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of sex on anaphylaxis severity—data from the Anaphylaxis Registry</title>
-      <link>/publication/sex-ana/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/sex-ana/</guid>
       <description></description>
     </item>
     

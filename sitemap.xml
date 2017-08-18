@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/talk/kolberg/</loc>
+      <lastmod>2017-08-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
     </url>
@@ -185,14 +194,6 @@
     
     <url>
     
-      <loc>/talk/kolberg/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication_types/2/</loc>
       <lastmod>2017-06-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -252,7 +253,7 @@
     
     <url>
     
-      <loc>/categories/lab/</loc>
+      <loc>/tags/lab/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -262,7 +263,7 @@
     
     <url>
     
-      <loc>/tags/lab/</loc>
+      <loc>/categories/lab/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -302,7 +303,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -312,7 +313,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
