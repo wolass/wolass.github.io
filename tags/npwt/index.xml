@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Npwt on Wojciech Francuzik</title>
-    <link>/tags/npwt/</link>
+    <link>https://wolass.github.io/tags/npwt/</link>
     <description>Recent content in Npwt on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/npwt/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wolass.github.io/tags/npwt/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>NPWT</title>
-      <link>/project/npwt/</link>
+      <link>https://wolass.github.io/project/npwt/</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/npwt/</guid>
-      <description>&lt;p&gt;My work on Negative Pressure Wound Therapy use in Dermatology started in 2014. I first descibed a case report where NPWT was used after surgical procedure in a patient with acne inversa.&lt;/p&gt;
-
-&lt;p&gt;Then, I was intersted in following up on how to cut costs of NPWT in hospital setting to make this techniqe more easily availible. This reaseach is ongoing and I will share more details in the future.&lt;/p&gt;
-</description>
+      <guid>https://wolass.github.io/project/npwt/</guid>
+      <description>My work on Negative Pressure Wound Therapy use in Dermatology started in 2014. I first descibed a case report where NPWT was used after surgical procedure in a patient with acne inversa.
+Then, I was intersted in following up on how to cut costs of NPWT in hospital setting to make this techniqe more easily availible. This reaseach is ongoing and I will share more details in the future.</description>
     </item>
     
   </channel>

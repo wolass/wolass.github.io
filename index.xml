@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wojciech Francuzik on Wojciech Francuzik</title>
-    <link>/</link>
+    <link>https://wolass.github.io/</link>
     <description>Recent content in Wojciech Francuzik on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>Wpływ lecznictwa uzdrowiskowego na mikrobiom skóry</title>
-      <link>/talk/kolberg/</link>
+      <link>https://wolass.github.io/talk/kolberg/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/kolberg/</guid>
+      <guid>https://wolass.github.io/talk/kolberg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluate optical density to get concentrations of your ELISA</title>
-      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <link>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <guid>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
       <description>&lt;p&gt;Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.&lt;/p&gt;
 &lt;p&gt;I decided to change this and learn this and that about analysing ELISA results.&lt;/p&gt;
 &lt;p&gt;So the first thing that got me - OPTICAL DENSITY measurments were unaffected by the analysis type. So I had to use these raw values as my starting point. Extracting these was a matter of using Rpoppler package to extract pdf into txt and than using som gsub commands to get the exact values that I needed.&lt;/p&gt;
@@ -59,7 +59,7 @@ plot(fit)
 lines(samples$loganswer,samples$OD, type=&amp;quot;points&amp;quot;, col=&amp;quot;blue&amp;quot;) 
 return(samples)
 }&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is available in y &lt;a href=&#34;https://github.com/wolass/rlabbook&#34;&gt;rlabbook package&lt;/a&gt; (which is a slow WIP).&lt;/p&gt;
+&lt;p&gt;It is available in my &lt;a href=&#34;https://github.com/wolass/rlabbook&#34;&gt;rlabbook package&lt;/a&gt; (which is a slow WIP).&lt;/p&gt;
 &lt;p&gt;Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary?&lt;/p&gt;
 &lt;p&gt;Hope this helps someone!&lt;/p&gt;
 </description>
@@ -67,10 +67,10 @@ return(samples)
     
     <item>
       <title>R package as a reproducible piece of scientific communication</title>
-      <link>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
+      <link>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
+      <guid>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
       <description>&lt;p&gt;Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.&lt;/p&gt;
 &lt;p&gt;The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.&lt;/p&gt;
 &lt;p&gt;We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.&lt;/p&gt;
@@ -84,10 +84,10 @@ return(samples)
     
     <item>
       <title>Anaphylaxis</title>
-      <link>/project/anaphylaxis/</link>
+      <link>https://wolass.github.io/project/anaphylaxis/</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/anaphylaxis/</guid>
+      <guid>https://wolass.github.io/project/anaphylaxis/</guid>
       <description>
 
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
@@ -130,10 +130,10 @@ I&amp;rsquo;m lucky to be working on this challenging dataset as a data scientis
     
     <item>
       <title>NPWT</title>
-      <link>/project/npwt/</link>
+      <link>https://wolass.github.io/project/npwt/</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/npwt/</guid>
+      <guid>https://wolass.github.io/project/npwt/</guid>
       <description>&lt;p&gt;My work on Negative Pressure Wound Therapy use in Dermatology started in 2014. I first descibed a case report where NPWT was used after surgical procedure in a patient with acne inversa.&lt;/p&gt;
 
 &lt;p&gt;Then, I was intersted in following up on how to cut costs of NPWT in hospital setting to make this techniqe more easily availible. This reaseach is ongoing and I will share more details in the future.&lt;/p&gt;
@@ -142,10 +142,10 @@ I&amp;rsquo;m lucky to be working on this challenging dataset as a data scientis
     
     <item>
       <title>Init lab</title>
-      <link>/post/init-lab/</link>
+      <link>https://wolass.github.io/post/init-lab/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/init-lab/</guid>
+      <guid>https://wolass.github.io/post/init-lab/</guid>
       <description>
 
 &lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
@@ -191,83 +191,83 @@ I have been using R and Rstudio extensively since last 4 years. It has proven ex
     
     <item>
       <title>Epineural Sheath Jacket as a New Surgical Technique for Neuroma Prevention in the Rat Sciatic Nerve Model.</title>
-      <link>/publication/neural-sheath/</link>
+      <link>https://wolass.github.io/publication/neural-sheath/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/neural-sheath/</guid>
+      <guid>https://wolass.github.io/publication/neural-sheath/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Serum levels of 9α, 11β‐PGF2 and apolipoprotein A1 achieve high predictive power as biomarkers of anaphylaxis</title>
-      <link>/publication/serum-ana/</link>
+      <link>https://wolass.github.io/publication/serum-ana/</link>
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/serum-ana/</guid>
+      <guid>https://wolass.github.io/publication/serum-ana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Microbiome in Skin Diseases: looking back to move forward</title>
-      <link>/talk/indercos2/</link>
+      <link>https://wolass.github.io/talk/indercos2/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/indercos2/</guid>
+      <guid>https://wolass.github.io/talk/indercos2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The influence of rifaximin on diverticulitis rate and quality of life in patients with diverticulosis.</title>
-      <link>/publication/rifaximin/</link>
+      <link>https://wolass.github.io/publication/rifaximin/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/rifaximin/</guid>
+      <guid>https://wolass.github.io/publication/rifaximin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Botulinum Toxin Injection for Treatment of Chronic Anal Fissure: Is There Any Dose-Dependent Efficiency? A Meta-Analysis</title>
-      <link>/publication/botox-af/</link>
+      <link>https://wolass.github.io/publication/botox-af/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/botox-af/</guid>
+      <guid>https://wolass.github.io/publication/botox-af/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical and Economic Benefit of Negative Pressure Wound Therapy in Treatment of the Open Abdomen</title>
-      <link>/publication/oa-npwt/</link>
+      <link>https://wolass.github.io/publication/oa-npwt/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/oa-npwt/</guid>
+      <guid>https://wolass.github.io/publication/oa-npwt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laser therapies for onychomycosis – critical evaluation of methods and effectiveness</title>
-      <link>/publication/laser-onychomycosis/</link>
+      <link>https://wolass.github.io/publication/laser-onychomycosis/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laser-onychomycosis/</guid>
+      <guid>https://wolass.github.io/publication/laser-onychomycosis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Knowledge about ultraviolet radiation hazards and tanning behavior of cosmetology and medical students</title>
-      <link>/publication/radiation/</link>
+      <link>https://wolass.github.io/publication/radiation/</link>
       <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/radiation/</guid>
+      <guid>https://wolass.github.io/publication/radiation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data from the anaphylaxis registry of the German-speaking countries</title>
-      <link>/publication/german-ana/</link>
+      <link>https://wolass.github.io/publication/german-ana/</link>
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/german-ana/</guid>
+      <guid>https://wolass.github.io/publication/german-ana/</guid>
       <description></description>
     </item>
     

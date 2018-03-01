@@ -2,124 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Wojciech Francuzik</title>
-    <link>/post/</link>
+    <link>https://wolass.github.io/post/</link>
     <description>Recent content in Posts on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wolass.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Evaluate optical density to get concentrations of your ELISA</title>
-      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <link>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
-      <description>&lt;p&gt;Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.&lt;/p&gt;
-&lt;p&gt;I decided to change this and learn this and that about analysing ELISA results.&lt;/p&gt;
-&lt;p&gt;So the first thing that got me - OPTICAL DENSITY measurments were unaffected by the analysis type. So I had to use these raw values as my starting point. Extracting these was a matter of using Rpoppler package to extract pdf into txt and than using som gsub commands to get the exact values that I needed.&lt;/p&gt;
-&lt;p&gt;Secondly, the manual of my elisa recommended using the 4 parameter models and I had to look for a function which could facilitate this. &lt;code&gt;drc&lt;/code&gt; package has this covered.&lt;/p&gt;
-&lt;p&gt;I quickly wrote a function based on a post on research gate, and was able to get my results.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#&amp;#39; Calculate the concentration of a substrate from a known OPTICAL DENSITY
-#&amp;#39;
-#&amp;#39; This function will give a calculated concentration of a subsance in 96 well 
-#&amp;#39; plate given the optical density from a plate reader.
-#&amp;#39; 
-#&amp;#39; @param OD Optical density of the STANDARD DILUTION [numeric vector]
-#&amp;#39; @param conc KNOWN concentrations of the standard dilution [numeric vector]
-#&amp;#39; @param OD_sample Optical densities of samples [named vector]
-#&amp;#39; @return A data frame with OD, log fitted values and calculated concentrations
-#&amp;#39;  of the samples and a plot with a standard curve standard and blue samples
-#&amp;#39; @author Wojciech Francuzik
-#&amp;#39; @details This function is useful when working with old plate readers. It uses 
-#&amp;#39; the FOUR PARAMETER CURVE to fit the model to your standards. 
-#&amp;#39; @export elisa4ll
-
-elisa4ll &amp;lt;- function(OD,conc,OD_sample){
-    require(drc)
-logconc &amp;lt;-log10(conc)# log10 from conc
-stdcrvdata &amp;lt;- data.frame(OD,conc,logconc)
-fit&amp;lt;-drm(formula = OD ~ conc , data = stdcrvdata, fct = LL.4())
-samples &amp;lt;- data.frame(OD=OD_sample)# data from mesurments
-samples$loganswer&amp;lt;- fit$coefficients[4]*
-    (((-1* fit$coefficients[3]+samples$OD)/
-          (fit$coefficients[2]-samples$OD))^(1/ fit$coefficients[1]))
-samples$conc &amp;lt;- 10^samples$loganswer
-plot(fit)
-lines(samples$loganswer,samples$OD, type=&amp;quot;points&amp;quot;, col=&amp;quot;blue&amp;quot;) 
-return(samples)
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is available in y &lt;a href=&#34;https://github.com/wolass/rlabbook&#34;&gt;rlabbook package&lt;/a&gt; (which is a slow WIP).&lt;/p&gt;
-&lt;p&gt;Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary?&lt;/p&gt;
-&lt;p&gt;Hope this helps someone!&lt;/p&gt;
-</description>
+      <guid>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <description>Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.
+I decided to change this and learn this and that about analysing ELISA results.</description>
     </item>
     
     <item>
       <title>R package as a reproducible piece of scientific communication</title>
-      <link>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
+      <link>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
-      <description>&lt;p&gt;Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.&lt;/p&gt;
-&lt;p&gt;The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.&lt;/p&gt;
-&lt;p&gt;We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.&lt;/p&gt;
-&lt;p&gt;So to answer my own question - it all lies in incentives. Scientist publish in paper academic journals because they are rewarded with “Impact Factor points”. These are then exchanged (being a form of evaluation how good a certain group of researchers is) for more funding for science, staff, consumables, rooms. Essentially all resources are divided between reaserch groups according to this extreamly biased benchmark.&lt;/p&gt;
-&lt;p&gt;Nevertheless, the problem of providing high quality proofs to scientific questions is not well addressed, by following these incentives because it just doesn’t calculate to put extra effort for ensuring quality research.&lt;/p&gt;
-&lt;p&gt;But scientists aside from being calculated people are sometimes also ethical. One example of this is sharing scientific discoveries openly and not bothering with impact points. Prof. Ben Marvic is such a guy! Have a look at his repos on github. Especially &lt;a href=&#34;https://github.com/benmarwick/researchcompendium&#34;&gt;this one&lt;/a&gt; got my attention. Researchcompendium is a package - template for science projects that adds a lot of structure for reproducibility.&lt;/p&gt;
-&lt;p&gt;Maybe this form of scientific communication has the chance to be equal to journal publications?&lt;/p&gt;
-&lt;p&gt;So I suggest to try the package! I will and my experience will be covered in next posts.&lt;/p&gt;
-</description>
+      <guid>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
+      <description>Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.
+The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.
+We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.</description>
     </item>
     
     <item>
       <title>Init lab</title>
-      <link>/post/init-lab/</link>
+      <link>https://wolass.github.io/post/init-lab/</link>
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/init-lab/</guid>
-      <description>
-
-&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-
-&lt;p&gt;This is my initial post. Communication in science is changing not so rapidly as it should. Use of new tools and methods may drive change in the way we communicate experiment results.
-I have been using R and Rstudio extensively since last 4 years. It has proven exeptionally well suited for making science and my latest attempts at producing full manuscripts in RStudio were suprisingly successful. This lead me to investigating new forms of scientific communication.&lt;/p&gt;
-
-&lt;h1 id=&#34;aim&#34;&gt;Aim&lt;/h1&gt;
-
-&lt;p&gt;The purpose of this site is to a) order my knowledge and programming skills, b) make me practice clear communication with the readers, c) promote Open Science and d) serve as an Open Lab Notebook.&lt;/p&gt;
-
-&lt;h1 id=&#34;methods&#34;&gt;Methods&lt;/h1&gt;
-
-&lt;p&gt;I will be using the &amp;lsquo;blogdown&amp;rsquo; package by Yihui Xie to serve this site. My ideas and data will be shared openly using the CC-BY 4.0 License. There is no funding for this site, and the data I share here are my own. To host the page I&amp;rsquo;ll use github and AWS for the domain.&lt;/p&gt;
-
-&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
-
-&lt;p&gt;So far using blogdown was a blast and it works great. I have a lot of topics to cover in the following posts. This will be documenting my experience how to set up an academig website using blogdown and github.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;The complete instructions to get you started right away are written &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;here by the author of the blogdown package&lt;/a&gt;. If you want th get right to business &lt;a href=&#34;https://bookdown.org/yihui/blogdown/workflow.html&#34; target=&#34;_blank&#34;&gt;try this page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In short: setting up the blogdown and hugo and previewing locally takes no more than 5 minutes!&lt;/p&gt;
-
-&lt;p&gt;The time consumig part is getting all the personal details and the list of publications into the file structure.&lt;/p&gt;
-
-&lt;p&gt;I really love that everything here is written in markdown!&lt;/p&gt;
-
-&lt;h2 id=&#34;academic-details&#34;&gt;Academic details&lt;/h2&gt;
-
-&lt;p&gt;I chose the academic template because it ideally answers my needs. You need to add some links to the most used account in the configuration file: Research gate, Impactstory, twitter links and so on. It takes a couple of hours. To represent your current CV.&lt;/p&gt;
-
-&lt;h2 id=&#34;publishing&#34;&gt;Publishing&lt;/h2&gt;
-
-&lt;p&gt;I already had a domain and used the github hosting service. So for me this did not make a difference, but setting these up is also not that hard. Details are in the Blogdown&amp;rsquo;s manual.&lt;/p&gt;
-
-&lt;h1 id=&#34;discussion&#34;&gt;Discussion&lt;/h1&gt;
-
-&lt;p&gt;Could this type of content be the future of scientific communication? Or are we bound to paper journals and good ol&amp;rsquo; Impact Factor?&lt;/p&gt;
-</description>
+      <guid>https://wolass.github.io/post/init-lab/</guid>
+      <description>Introduction This is my initial post. Communication in science is changing not so rapidly as it should. Use of new tools and methods may drive change in the way we communicate experiment results. I have been using R and Rstudio extensively since last 4 years. It has proven exeptionally well suited for making science and my latest attempts at producing full manuscripts in RStudio were suprisingly successful. This lead me to investigating new forms of scientific communication.</description>
     </item>
     
   </channel>

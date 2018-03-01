@@ -2,29 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Wojciech Francuzik</title>
-    <link>/talk/</link>
+    <link>https://wolass.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wolass.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Wpływ lecznictwa uzdrowiskowego na mikrobiom skóry</title>
-      <link>/talk/kolberg/</link>
+      <link>https://wolass.github.io/talk/kolberg/</link>
       <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/kolberg/</guid>
+      <guid>https://wolass.github.io/talk/kolberg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Microbiome in Skin Diseases: looking back to move forward</title>
-      <link>/talk/indercos2/</link>
+      <link>https://wolass.github.io/talk/indercos2/</link>
       <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/indercos2/</guid>
+      <guid>https://wolass.github.io/talk/indercos2/</guid>
       <description></description>
     </item>
     

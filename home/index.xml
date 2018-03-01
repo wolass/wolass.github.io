@@ -2,13 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Wojciech Francuzik</title>
-    <link>/home/</link>
+    <link>https://wolass.github.io/home/</link>
     <description>Recent content in Homes on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://wolass.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wolass.github.io/home/about/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/about/</guid>
+      <description>Biography Wojciech Francuzik is a postgraduate student at the Deprtment of Dermatology, Venereology and Allergology, Charite. His research focuses on human skin microbiome and host-microbial interactions, as well as anaphylaxis. Additionally, he is conducting reserach on Negative Pressure Wound Therapy. He is a member of Professor&amp;rsquo;s Margitta Worm Lab Workgroup where he is conducting clinical as well as lab bench research.
+His has a strong foundation in data analysis (4 years experience in R programming) and statistics.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://wolass.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://wolass.github.io/home/publications/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://wolass.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://wolass.github.io/home/posts/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://wolass.github.io/home/projects/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://wolass.github.io/home/contact/</link>
+      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
