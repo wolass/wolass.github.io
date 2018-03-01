@@ -55,7 +55,7 @@ return(samples)
 }
 ```
 
-It is available in y [rlabbook package](https://github.com/wolass/rlabbook) (which is a slow WIP). 
+It is available in my [rlabbook package](https://github.com/wolass/rlabbook) (which is a slow WIP). 
 
 Basically if you provide this function with a set of OD reads from samples and standard curve along with the known concentrations of the standard dilution - you should get your concentrations calculated accordingly. It also plots a nice plot. There could be a tone more features but is it necessary? 
 
