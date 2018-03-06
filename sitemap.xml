@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/talk/kolberg/</loc>
-      <lastmod>2017-08-21T00:00:00+00:00</lastmod>
+      <loc>/talk/example/</loc>
+      <lastmod>2018-03-13T19:00:00+01:00</lastmod>
     </url>
     
   
@@ -14,7 +14,25 @@
     
     <url>
     
-      <loc>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</loc>
+      <loc>/publication/worm2018/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/francuzik2018/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +41,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</loc>
+      <loc>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</loc>
       <lastmod>2017-07-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,70 +50,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/project/anaphylaxis/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/project/npwt/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/post/init-lab/</loc>
-      <lastmod>2017-07-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/publication/neural-sheath/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/publication/serum-ana/</loc>
-      <lastmod>2017-04-24T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/talk/indercos2/</loc>
-      <lastmod>2017-03-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/publication/rifaximin/</loc>
-      <lastmod>2017-02-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +59,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/post/</loc>
+      <loc>/publication/siemionow2017/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +68,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +77,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,8 +86,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/botox-af/</loc>
-      <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+      <loc>/publication/wittenberg2017/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -140,8 +95,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/oa-npwt/</loc>
-      <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+      <loc>/publication/rifaximin/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -149,8 +104,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/laser-onychomycosis/</loc>
-      <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -158,8 +113,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/radiation/</loc>
-      <lastmod>2016-04-24T00:00:00+00:00</lastmod>
+      <loc>/publication/4adam2016botulinum/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -167,8 +122,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/german-ana/</loc>
-      <lastmod>2015-11-30T00:00:00+00:00</lastmod>
+      <loc>/publication/francuzik2016laser/</loc>
+      <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -176,8 +131,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/sex-ana/</loc>
-      <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+      <loc>/publication/test/</loc>
+      <lastmod>2015-01-01T16:43:37+01:00</lastmod>
     </url>
     
   
@@ -185,8 +140,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication/acneinversa/</loc>
-      <lastmod>2014-11-29T00:00:00+00:00</lastmod>
+      <loc>/publication/2worm2015data/</loc>
+      <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -194,8 +149,71 @@
     
     <url>
     
-      <loc>https://wolass.github.io/publication_types/2/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+      <loc>/publication/6banasiewicz2014clinical/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/5francuzik2014improvement/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/9francuzik2013/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/8skodowska2013/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/7fritz2013/</loc>
+      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/francuzik2012a/</loc>
+      <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/francuzik2011c/</loc>
+      <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -204,7 +222,17 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/blog/</loc>
+      <loc>/tags/anaphylaxis/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/blog/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -214,7 +242,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -223,17 +251,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/data-analysis/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/tags/function/</loc>
+      <loc>/tags/function/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -243,17 +261,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/github/</loc>
-      <lastmod>2017-07-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/tags/lab/</loc>
+      <loc>/tags/lab/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -263,7 +271,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/categories/lab/</loc>
+      <loc>/categories/lab/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -273,8 +281,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/npwt/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+      <loc>/publication_types/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -283,27 +291,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/project/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/publication_types/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/tags/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -313,7 +301,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/categories/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2017-08-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -323,17 +311,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/science/</loc>
-      <lastmod>2017-07-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://wolass.github.io/categories/scientific-communication/</loc>
+      <loc>/categories/scientific-communication/</loc>
       <lastmod>2017-07-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -343,7 +321,7 @@
     
     <url>
     
-      <loc>https://wolass.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -353,8 +331,8 @@
     
     <url>
     
-      <loc>https://wolass.github.io/</loc>
-      <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
