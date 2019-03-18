@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lab on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/categories/lab/</link>
-    <description>Recent content in Lab on Wojciech Francuzik</description>
+    <title>lab on Wojciech Francuzik</title>
+    <link>/categories/lab/</link>
+    <description>Recent content in lab on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wolass.github.io/categories/lab/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/lab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evaluate optical density to get concentrations of your ELISA</title>
-      <link>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
       <description>Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.
 I decided to change this and learn this and that about analysing ELISA results.</description>
     </item>

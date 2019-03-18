@@ -108,7 +108,10 @@ return(samples)
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
-      <description>&lt;p&gt;Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.&lt;/p&gt;
 &lt;p&gt;The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.&lt;/p&gt;
 &lt;p&gt;We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.&lt;/p&gt;
 &lt;p&gt;So to answer my own question - it all lies in incentives. Scientist publish in paper academic journals because they are rewarded with “Impact Factor points”. These are then exchanged (being a form of evaluation how good a certain group of researchers is) for more funding for science, staff, consumables, rooms. Essentially all resources are divided between reaserch groups according to this extreamly biased benchmark.&lt;/p&gt;

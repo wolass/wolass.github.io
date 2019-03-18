@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anaphylaxis on Wojciech Francuzik</title>
+    <link>/tags/anaphylaxis/</link>
+    <description>Recent content in anaphylaxis on Wojciech Francuzik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/anaphylaxis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Factors increasing the risk for a severe reaction in anaphylaxis: An analysis of Data from The European Anaphylaxis Registry</title>
+      <link>/publication/worm2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/worm2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

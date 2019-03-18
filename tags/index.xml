@@ -2,94 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wolass.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://wolass.github.io/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://wolass.github.io/tags/blog/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Analysis</title>
-      <link>https://wolass.github.io/tags/data-analysis/</link>
-      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Function</title>
-      <link>https://wolass.github.io/tags/function/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/function/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://wolass.github.io/tags/github/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lab</title>
-      <link>https://wolass.github.io/tags/lab/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/lab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Npwt</title>
-      <link>https://wolass.github.io/tags/npwt/</link>
-      <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/tags/npwt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R</title>
-      <link>https://wolass.github.io/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Science</title>
-      <link>https://wolass.github.io/tags/science/</link>
-      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      <title>anaphylaxis</title>
+      <link>/tags/anaphylaxis/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/tags/science/</guid>
+      <guid>/tags/anaphylaxis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>function</title>
+      <link>/tags/function/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/function/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lab</title>
+      <link>/tags/lab/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lab/</guid>
       <description></description>
     </item>
     

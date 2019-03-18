@@ -2,103 +2,166 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Wojciech Francuzik</title>
-    <link>https://wolass.github.io/publication_types/2/</link>
+    <link>/publication_types/2/</link>
     <description>Recent content in 2 on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
-    <lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 16:43:37 +0100</lastBuildDate>
     
-	<atom:link href="https://wolass.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Epineural Sheath Jacket as a New Surgical Technique for Neuroma Prevention in the Rat Sciatic Nerve Model.</title>
-      <link>https://wolass.github.io/publication/neural-sheath/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/neural-sheath/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
-    </item>
     
     <item>
-      <title>Serum levels of 9α, 11β‐PGF2 and apolipoprotein A1 achieve high predictive power as biomarkers of anaphylaxis</title>
-      <link>https://wolass.github.io/publication/serum-ana/</link>
-      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      <title>Risk factors and treatment of refractory anaphylaxis - a review of case reports</title>
+      <link>/publication/refractoryana/</link>
+      <pubDate>Tue, 06 Mar 2018 16:43:37 +0100</pubDate>
       
-      <guid>https://wolass.github.io/publication/serum-ana/</guid>
+      <guid>/publication/refractoryana/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The influence of rifaximin on diverticulitis rate and quality of life in patients with diverticulosis.</title>
-      <link>https://wolass.github.io/publication/rifaximin/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <title>Factors increasing the risk for a severe reaction in anaphylaxis: An analysis of Data from The European Anaphylaxis Registry</title>
+      <link>/publication/worm2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/publication/rifaximin/</guid>
+      <guid>/publication/worm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Propionibacterium acnes Abundance Correlates Inversely with Staphylococcus aureus. Data from Atopic Dermatitis Skin Microbiome</title>
+      <link>/publication/francuzik2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/francuzik2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epineural Sheath Jacket as a New Surgical Technique for Neuroma Prevention in the Rat Sciatic Nerve Model</title>
+      <link>/publication/siemionow2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/siemionow2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serum levels of 9-alpha, 11-beta-PGF2 and apolipoprotein A1 achieve high predictive power as biomarkers of anaphylaxis</title>
+      <link>/publication/wittenberg2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/wittenberg2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The influence of rifaximin on diverticulitis rate and quality of life in patients with diverticulosis</title>
+      <link>/publication/rifaximin/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rifaximin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Botulinum Toxin Injection for Treatment of Chronic Anal Fissure: Is There Any Dose-Dependent Efficiency? A Meta-Analysis</title>
-      <link>https://wolass.github.io/publication/botox-af/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <link>/publication/4adam2016botulinum/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/publication/botox-af/</guid>
+      <guid>/publication/4adam2016botulinum/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Clinical and Economic Benefit of Negative Pressure Wound Therapy in Treatment of the Open Abdomen</title>
-      <link>https://wolass.github.io/publication/oa-npwt/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <title>Laser therapies for onychomycosis--critical evaluation of methods and effectiveness</title>
+      <link>/publication/francuzik2016laser/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/publication/oa-npwt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laser therapies for onychomycosis – critical evaluation of methods and effectiveness</title>
-      <link>https://wolass.github.io/publication/laser-onychomycosis/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/laser-onychomycosis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Knowledge about ultraviolet radiation hazards and tanning behavior of cosmetology and medical students</title>
-      <link>https://wolass.github.io/publication/radiation/</link>
-      <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/radiation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data from the anaphylaxis registry of the German-speaking countries</title>
-      <link>https://wolass.github.io/publication/german-ana/</link>
-      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/german-ana/</guid>
+      <guid>/publication/francuzik2016laser/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impact of sex on anaphylaxis severity—data from the Anaphylaxis Registry</title>
-      <link>https://wolass.github.io/publication/sex-ana/</link>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <link>/publication/test/</link>
+      <pubDate>Thu, 01 Jan 2015 16:43:37 +0100</pubDate>
       
-      <guid>https://wolass.github.io/publication/sex-ana/</guid>
+      <guid>/publication/test/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Improvement of Therapy Outcomes after Negative Pressure Wound Therapy in a Patient with Acne inversa.</title>
-      <link>https://wolass.github.io/publication/acneinversa/</link>
-      <pubDate>Sat, 29 Nov 2014 00:00:00 +0000</pubDate>
+      <title>Data from the anaphylaxis registry of the German-speaking countries</title>
+      <link>/publication/2worm2015data/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://wolass.github.io/publication/acneinversa/</guid>
+      <guid>/publication/2worm2015data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical and economic benefit of negative pressure wound therapy in treatment of the open abdomen</title>
+      <link>/publication/6banasiewicz2014clinical/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/6banasiewicz2014clinical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvement of Therapy Outcomes after Negative Pressure Wound Therapy in a Patient with Acne inversa</title>
+      <link>/publication/5francuzik2014improvement/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/5francuzik2014improvement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cutaneous leukocytoclastic vasculitis revealing a renal clear cell cancer</title>
+      <link>/publication/9francuzik2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/9francuzik2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toxic effects of methotrexate overdose in a psoriasis patient – case report</title>
+      <link>/publication/8skodowska2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/8skodowska2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Treatment options for onychomycosis</title>
+      <link>/publication/7fritz2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/7fritz2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erythroderma - Case report and literature review</title>
+      <link>/publication/francuzik2012a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/francuzik2012a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photoallergic Contact Dermatitis due to topical use of ketoprofen gel. Case report.</title>
+      <link>/publication/francuzik2011c/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/francuzik2011c/</guid>
       <description></description>
     </item>
     
