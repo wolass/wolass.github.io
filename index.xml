@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Current developments in the treatment of peanut allergy</title>
+      <link>https://wolass.github.io/publication/peanut_allergy_tx/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/publication/peanut_allergy_tx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Therapy Changes During Pemphigus Management: A Retrospective Analysis</title>
       <link>https://wolass.github.io/publication/pemphigus2020/</link>
       <pubDate>Wed, 25 Nov 2020 16:43:37 +0100</pubDate>
@@ -191,15 +200,6 @@ return(samples)
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wolass.github.io/publication/4adam2016botulinum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laser therapies for onychomycosis--critical evaluation of methods and effectiveness</title>
-      <link>https://wolass.github.io/publication/francuzik2016laser/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/francuzik2016laser/</guid>
       <description></description>
     </item>
     
