@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Phenotype and risk factors of venom-induced anaphylaxis: A case-control study of the European Anaphylaxis Registry</title>
+      <link>https://wolass.github.io/publication/vanomanaphylaxis/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/publication/vanomanaphylaxis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Therapy Changes During Pemphigus Management: A Retrospective Analysis</title>
       <link>https://wolass.github.io/publication/pemphigus2020/</link>
       <pubDate>Wed, 25 Nov 2020 16:43:37 +0100</pubDate>
@@ -191,15 +200,6 @@ return(samples)
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://wolass.github.io/publication/wittenberg2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The influence of rifaximin on diverticulitis rate and quality of life in patients with diverticulosis</title>
-      <link>https://wolass.github.io/publication/rifaximin/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/rifaximin/</guid>
       <description></description>
     </item>
     
