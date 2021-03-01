@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scientific communication on Wojciech Francuzik</title>
-    <link>/categories/scientific-communication/</link>
+    <link>https://wolass.github.io/categories/scientific-communication/</link>
     <description>Recent content in scientific communication on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY 4.0; 2017 Wojciech Francuzik</copyright>
     <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/scientific-communication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wolass.github.io/categories/scientific-communication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R package as a reproducible piece of scientific communication</title>
-      <link>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
+      <link>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
+      <guid>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
       <description>Why do scientists still use journal articles as main form of sharing their research? The paper publication has been with the academics since ages and it surely does need an update.
 The variety of outputs we have to offer ar modern scientists had dramatically evolved and contains multigiabyte databases along with high quality images, and simple text output.
 We therefore need a modern medium which allows sharing such sophisticated data and paper simply is not suited for this.</description>

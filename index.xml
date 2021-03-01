@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wojciech Francuzik on Wojciech Francuzik</title>
-    <link>/</link>
+    <link>https://wolass.github.io/</link>
     <description>Recent content in Wojciech Francuzik on Wojciech Francuzik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,47 +12,47 @@
     
     <item>
       <title>Reproducibility in research</title>
-      <link>/talk/example/</link>
+      <link>https://wolass.github.io/talk/example/</link>
       <pubDate>Tue, 13 Mar 2018 19:00:00 +0100</pubDate>
       
-      <guid>/talk/example/</guid>
+      <guid>https://wolass.github.io/talk/example/</guid>
       <description>&lt;p&gt;Further details will be availible here&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Risk factors and treatment of refractory anaphylaxis - a review of case reports</title>
-      <link>/publication/refractoryana/</link>
+      <link>https://wolass.github.io/publication/refractoryana/</link>
       <pubDate>Tue, 06 Mar 2018 16:43:37 +0100</pubDate>
       
-      <guid>/publication/refractoryana/</guid>
+      <guid>https://wolass.github.io/publication/refractoryana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Factors increasing the risk for a severe reaction in anaphylaxis: An analysis of Data from The European Anaphylaxis Registry</title>
-      <link>/publication/worm2018/</link>
+      <link>https://wolass.github.io/publication/worm2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/worm2018/</guid>
+      <guid>https://wolass.github.io/publication/worm2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Propionibacterium acnes Abundance Correlates Inversely with Staphylococcus aureus. Data from Atopic Dermatitis Skin Microbiome</title>
-      <link>/publication/francuzik2018/</link>
+      <link>https://wolass.github.io/publication/francuzik2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/francuzik2018/</guid>
+      <guid>https://wolass.github.io/publication/francuzik2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluate optical density to get concentrations of your ELISA</title>
-      <link>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
+      <link>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
+      <guid>https://wolass.github.io/post/evaluate-optical-density-to-get-concentrations-of-your-elisa/</guid>
       <description>&lt;p&gt;Today I was doing a quick ELISA and realized that the reader was old and produced the results in PDF only. This poses multiple problems as they need to be manually rewritten to a file and post-processed later. Additionally the optical density measurments in my software are automatically calculated into concentration based on some shady functions which I never understood.&lt;/p&gt;
 
 &lt;p&gt;I decided to change this and learn this and that about analysing ELISA results.&lt;/p&gt;
@@ -104,10 +104,10 @@ return(samples)
     
     <item>
       <title>R package as a reproducible piece of scientific communication</title>
-      <link>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
+      <link>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</link>
       <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
+      <guid>https://wolass.github.io/post/r-package-as-a-reproducible-piece-of-scientific-communication/</guid>
       <description>
 
 
@@ -124,82 +124,82 @@ return(samples)
     
     <item>
       <title>Epineural Sheath Jacket as a New Surgical Technique for Neuroma Prevention in the Rat Sciatic Nerve Model</title>
-      <link>/publication/siemionow2017/</link>
+      <link>https://wolass.github.io/publication/siemionow2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/siemionow2017/</guid>
+      <guid>https://wolass.github.io/publication/siemionow2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serum levels of 9-alpha, 11-beta-PGF2 and apolipoprotein A1 achieve high predictive power as biomarkers of anaphylaxis</title>
-      <link>/publication/wittenberg2017/</link>
+      <link>https://wolass.github.io/publication/wittenberg2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/wittenberg2017/</guid>
+      <guid>https://wolass.github.io/publication/wittenberg2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The influence of rifaximin on diverticulitis rate and quality of life in patients with diverticulosis</title>
-      <link>/publication/rifaximin/</link>
+      <link>https://wolass.github.io/publication/rifaximin/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/rifaximin/</guid>
+      <guid>https://wolass.github.io/publication/rifaximin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Botulinum Toxin Injection for Treatment of Chronic Anal Fissure: Is There Any Dose-Dependent Efficiency? A Meta-Analysis</title>
-      <link>/publication/4adam2016botulinum/</link>
+      <link>https://wolass.github.io/publication/4adam2016botulinum/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/4adam2016botulinum/</guid>
+      <guid>https://wolass.github.io/publication/4adam2016botulinum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laser therapies for onychomycosis--critical evaluation of methods and effectiveness</title>
-      <link>/publication/francuzik2016laser/</link>
+      <link>https://wolass.github.io/publication/francuzik2016laser/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/francuzik2016laser/</guid>
+      <guid>https://wolass.github.io/publication/francuzik2016laser/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impact of sex on anaphylaxis severity—data from the Anaphylaxis Registry</title>
-      <link>/publication/test/</link>
+      <link>https://wolass.github.io/publication/test/</link>
       <pubDate>Thu, 01 Jan 2015 16:43:37 +0100</pubDate>
       
-      <guid>/publication/test/</guid>
+      <guid>https://wolass.github.io/publication/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data from the anaphylaxis registry of the German-speaking countries</title>
-      <link>/publication/2worm2015data/</link>
+      <link>https://wolass.github.io/publication/2worm2015data/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2worm2015data/</guid>
+      <guid>https://wolass.github.io/publication/2worm2015data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical and economic benefit of negative pressure wound therapy in treatment of the open abdomen</title>
-      <link>/publication/6banasiewicz2014clinical/</link>
+      <link>https://wolass.github.io/publication/6banasiewicz2014clinical/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/6banasiewicz2014clinical/</guid>
+      <guid>https://wolass.github.io/publication/6banasiewicz2014clinical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improvement of Therapy Outcomes after Negative Pressure Wound Therapy in a Patient with Acne inversa</title>
-      <link>/publication/5francuzik2014improvement/</link>
+      <link>https://wolass.github.io/publication/5francuzik2014improvement/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/5francuzik2014improvement/</guid>
+      <guid>https://wolass.github.io/publication/5francuzik2014improvement/</guid>
       <description></description>
     </item>
     
