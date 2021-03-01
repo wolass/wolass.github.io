@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Thymic stromal lymphopoietin production induced by skin irritation results from concomitant activation of protease-activated receptor 2 and interleukin 1 pathways</title>
+      <link>https://wolass.github.io/publication/tslp_davender/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/publication/tslp_davender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reproducibility in research</title>
       <link>https://wolass.github.io/talk/example/</link>
       <pubDate>Tue, 13 Mar 2018 19:00:00 +0100</pubDate>
@@ -191,15 +200,6 @@ return(samples)
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://wolass.github.io/publication/francuzik2016laser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of sex on anaphylaxis severity—data from the Anaphylaxis Registry</title>
-      <link>https://wolass.github.io/publication/test/</link>
-      <pubDate>Thu, 01 Jan 2015 16:43:37 +0100</pubDate>
-      
-      <guid>https://wolass.github.io/publication/test/</guid>
       <description></description>
     </item>
     
