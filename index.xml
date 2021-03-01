@@ -20,6 +20,24 @@
     </item>
     
     <item>
+      <title>Immunomodulation of high‐dose vitamin D supplementation during allergen‐specific immunotherapy</title>
+      <link>https://wolass.github.io/publication/progit/</link>
+      <pubDate>Tue, 04 Aug 2020 16:43:37 +0100</pubDate>
+      
+      <guid>https://wolass.github.io/publication/progit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moderne Therapie der atopischen Dermatitis: Biologika und kleinmolekulare Medikamente</title>
+      <link>https://wolass.github.io/publication/moderne_therapie_der_atopischen_dermatitis/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wolass.github.io/publication/moderne_therapie_der_atopischen_dermatitis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reproducibility in research</title>
       <link>https://wolass.github.io/talk/example/</link>
       <pubDate>Tue, 13 Mar 2018 19:00:00 +0100</pubDate>
@@ -182,24 +200,6 @@ return(samples)
       <pubDate>Thu, 01 Jan 2015 16:43:37 +0100</pubDate>
       
       <guid>https://wolass.github.io/publication/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data from the anaphylaxis registry of the German-speaking countries</title>
-      <link>https://wolass.github.io/publication/2worm2015data/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/2worm2015data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clinical and economic benefit of negative pressure wound therapy in treatment of the open abdomen</title>
-      <link>https://wolass.github.io/publication/6banasiewicz2014clinical/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://wolass.github.io/publication/6banasiewicz2014clinical/</guid>
       <description></description>
     </item>
     
